@@ -7,11 +7,14 @@ public class TypeCast {
 
         Scanner sc= new Scanner(System.in);
 
-        int a= sc.nextInt();
+        float a = sc.nextInt();
+        System.out.println(a);
 
-        int b= a;
+        // int a= sc.nextInt();
 
-        System.out.println("b="+b);
+        // int b= a;
+
+        // System.out.println("b="+b);
     }
     
 }
