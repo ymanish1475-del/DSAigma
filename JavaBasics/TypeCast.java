@@ -21,10 +21,19 @@ public class TypeCast {
 
         // System.out.println(b);
 
-        char a ='z';
+        // char a ='z';
 
-        int b= a;
-        System.out.println(b);
+        // int b= a;
+        // System.out.println(b);
+
+        // type promotion 
+        int a = 890;
+        char b='b';
+        float c=892.890f;
+
+        double d= a+b+c;
+
+        System.out.println("sum d  ="+d);
     }
     
 }
