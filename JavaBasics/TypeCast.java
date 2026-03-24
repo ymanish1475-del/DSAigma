@@ -27,13 +27,22 @@ public class TypeCast {
         // System.out.println(b);
 
         // type promotion 
-        int a = 890;
-        char b='b';
-        float c=892.890f;
+        // int a = 890;
+        // char b='b';
+        // float c=892.890f;
 
-        double d= a+b+c;
+        // double d= a+b+c;
 
-        System.out.println("sum d  ="+d);
+        // System.out.println("sum d  ="+d);
+
+        char a='a';
+        char b = 'b';
+
+        System.out.println((int)(a));
+        System.out.println((int)(b));
+
+        System.out.println(b-a);
+
     }
     
 }
