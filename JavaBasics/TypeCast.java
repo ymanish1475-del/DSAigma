@@ -42,6 +42,7 @@ public class TypeCast {
         System.out.println((int)(b));
 
         System.out.println(b-a);
+        System.out.println(a-b);
 
     }
     
