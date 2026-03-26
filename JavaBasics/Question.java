@@ -6,23 +6,38 @@ public class Question {
     public static void main (String [] args){
 
         Scanner sc= new Scanner(System.in);
-        // a
-        System.out.print("a=");
+
+        System.out.print("give the side of squre=");
         int a = sc.nextInt();
 
-        // b
+        System.out.println("your input="+a);
 
-        System.out.print("b=");
-        int b = sc.nextInt();
+        int sq = a*a;
 
-        // c
+        
 
-        System.out.print("c=");
-        int c = sc.nextInt();
+        System.out.println("area of squre="+sq+"m^2");
 
-        float av = (a+b+c)/3f;
 
-        System.out.println("av="+av);
+        // a
+        // System.out.print("a=");
+        // int a = sc.nextInt();
+
+        // // b
+
+        // System.out.print("b=");
+        // int b = sc.nextInt();
+
+        // // c
+
+        // System.out.print("c=");
+        // int c = sc.nextInt();
+
+        // float av = (a+b+c)/3f;
+
+        // System.out.println("av="+av);
+
+
 
 
 
