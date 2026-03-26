@@ -11,6 +11,7 @@ public class oper {
         Scanner s = new Scanner(System.in);
 
         // ouput 55555
+        // POAT ICREMENT
 
         // System.out.print("a=");
         // int a = s.nextInt();
@@ -30,6 +31,8 @@ public class oper {
         // System.out.println(d);
 
         // output 5678
+
+        // PREINCREMENT
 
         System.out.print("a=");
         int a = s.nextInt();
