@@ -47,10 +47,11 @@ public class TypeCast {
         char c='c';
         System.out.println((int)(c)); 
         // write
-        System.out.println((c)(int));
+        // System.out.println((c)(int));
         // wrong
 
-        // char d= f-e; int se char mai convert nahi kar sakte
+        char d= f-e; 
+        // int se char mai convert nahi kar sakte
 
     }
     
