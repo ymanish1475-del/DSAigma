@@ -1,8 +1,8 @@
 
 
-// package Operators;
-import java.lang.classfile.attribute.SourceDebugExtensionAttribute;
-import java.nio.channels.Pipe.SourceChannel;
+// // package Operators;
+// import java.lang.classfile.attribute.SourceDebugExtensionAttribute;
+// import java.nio.channels.Pipe.SourceChannel;
 import java.util.*;
 
 
@@ -18,11 +18,23 @@ public class oper {
          System.out.print("b=");
          int b = s.nextInt();
 
-         int A = ++a;
-         int B = b++;
+         int A = --a;
+         int B = b--;
 
          System.out.println("A="+A);
          System.out.println("B="+B);
+
+        // System.out.print("a=");
+        //  int a = s.nextInt();
+
+        //  System.out.print("b=");
+        //  int b = s.nextInt();
+
+        //  int A = ++a;
+        //  int B = b++;
+
+        //  System.out.println("A="+A);
+        //  System.out.println("B="+B);
 
 
         // System.out.println("a="+a);
