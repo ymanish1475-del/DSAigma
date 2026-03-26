@@ -6,33 +6,33 @@ public class Question {
     public static void main (String [] args){
 
         Scanner sc= new Scanner(System.in);
+// question 3 
+        // System.out.println("your bill");
 
-        System.out.println("your bill");
+        // System.out.print("pencil=");
+        // float p = sc.nextFloat();
 
-        System.out.print("pencil=");
-        float p = sc.nextFloat();
+        // System.out.print("pen=");
+        // float n = sc.nextFloat();
 
-        System.out.print("pen=");
-        float n = sc.nextFloat();
+        // System.out.print("eraser=");
+        // float e = sc.nextFloat();
 
-        System.out.print("eraser=");
-        float e = sc.nextFloat();
+        // System.out.println("your products");
 
-        System.out.println("your products");
+        // System.out.println("pencil="+p);
+        // System.out.println("pen="+n);
+        // System.out.println("eraser="+e);
 
-        System.out.println("pencil="+p);
-        System.out.println("pen="+n);
-        System.out.println("eraser="+e);
+        // float t = (float)p+n+e ;
 
-        float t = (float)p+n+e ;
+        // System.out.println("total cost ="+t);
 
-        System.out.println("total cost ="+t);
+        // // adding gst
 
-        // adding gst
+        // float gst = (float)t+t*(18f/100f);
 
-        float gst = (float)t+t*(18f/100f);
-
-        System.out.println(" with gst = "+gst);
+        // System.out.println(" with gst = "+gst);
 
     
 
