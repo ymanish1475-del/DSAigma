@@ -18,11 +18,30 @@ public class oper {
          System.out.print("b=");
          int b = s.nextInt();
 
-         int A = --a;
-         int B = b--;
+         System.out.print("c=");
+         int c = s.nextInt();
 
-         System.out.println("A="+A);
-         System.out.println("B="+B);
+         System.out.println("a = "+a);
+         System.out.println("b = "+b);
+         System.out.println("a=b ="+(a==b));
+         System.out.println("a>b = "+(a>b));
+         System.out.println("a<b = "+(a<b));
+
+         System.out.println("b>c = "+(b>c));
+         System.out.println("b<c = "+(b<c));
+
+         System.out.println("a>=b = "+(a>=b));
+         System.out.println("a=<b = "+(a<=b));
+
+
+
+
+
+        //  int A = --a;
+        //  int B = b--;
+
+        //  System.out.println("A="+A);
+        //  System.out.println("B="+B);
 
         // System.out.print("a=");
         //  int a = s.nextInt();
