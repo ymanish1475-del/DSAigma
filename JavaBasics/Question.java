@@ -6,6 +6,23 @@ public class Question {
     public static void main (String [] args){
 
         Scanner sc= new Scanner(System.in);
+// question 5
+        int $= 50;
+        System.out.println("$="+$);
+
+
+// question 4
+        // byte b= 4;
+        // short s = 512;
+        // int i = 1000;
+        // char c= 'a';
+        // float f = 3.14f;
+        // double d = 99.9954;
+
+        // double result = (f*b)+(i%c)-(d*s);
+
+        // System.out.println("result= "+result);
+
 // question 3 
         // System.out.println("your bill");
 
