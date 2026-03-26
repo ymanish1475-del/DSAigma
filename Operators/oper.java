@@ -1,6 +1,8 @@
 
 
 // package Operators;
+import java.lang.classfile.attribute.SourceDebugExtensionAttribute;
+import java.nio.channels.Pipe.SourceChannel;
 import java.util.*;
 
 
@@ -9,6 +11,36 @@ public class oper {
     public static void main (String [] args){
 
         Scanner s = new Scanner(System.in);
+
+        System.out.print("a=");
+         int a = s.nextInt();
+
+         System.out.print("b=");
+         int b = s.nextInt();
+
+         int A = ++a;
+         int B = b++;
+
+         System.out.println("A="+A);
+         System.out.println("B="+B);
+
+
+        // System.out.println("a="+a);
+
+        //  int c = a++;
+        // // post increment
+        //  System.out.println("c="+c);
+
+
+        //  int b= ++a;
+        // //  pre increment 
+       
+        // System.out.println("b="+b);
+       
+
+    
+
+
 
         // ouput 55555
         // POAT ICREMENT
@@ -34,22 +66,22 @@ public class oper {
 
         // PREINCREMENT
 
-        System.out.print("a=");
-        int a = s.nextInt();
+        // System.out.print("a=");
+        // int a = s.nextInt();
 
-        System.out.println("a="+a);
+        // System.out.println("a="+a);
 
-        int b =++a ;
+        // int b =++a ;
 
-        System.out.println("b="+b);
+        // System.out.println("b="+b);
 
-        int c =++b;
+        // int c =++b;
 
-        System.out.println("c="+c);
+        // System.out.println("c="+c);
 
-        int d =++c;
+        // int d =++c;
 
-        System.out.println("d="+d);
+        // System.out.println("d="+d);
 
 
 
