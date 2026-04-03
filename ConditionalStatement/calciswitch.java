@@ -14,17 +14,20 @@ public class calciswitch {
 
 
         switch (op) {
-            case  "sum" : System.out.println("sum="+(a+b));
+            case  "+" : System.out.println("sum="+(a+b));
                 
                 break;
 
-            case  "min" : System.out.println("min="+(a-b));
+            case  "-" : System.out.println("min="+(a-b));
                 break;
 
-            case  "div" : System.out.println("div="+(a/b));
+            case  "/" : System.out.println("div="+(a/b));
                 break;
 
-            case  "mul" : System.out.println("mul="+(a*b));
+            case  "*" : System.out.println("mul="+(a*b));
+                break;
+
+            case "%" : System.out.println("mod="+(a%b));
                 break;
 
         
