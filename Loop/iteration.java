@@ -9,7 +9,7 @@ public class iteration {
 
         for(int i=0;i<=num;i++){
 
-            if(i==5){
+            if(i%10==0){
                 continue;
             }
             System.out.println(i);
