@@ -7,16 +7,27 @@ public class bstatement {
 
         Scanner sc = new Scanner(System.in);
 
-        int num=sc.nextInt();
+        
 
-        for(int i=0;i<num;i++){
-            if(i%10==0){
+        do{
+            System.out.println("enter your number");
+            int num=sc.nextInt();
+            if(num%10==0){
                 break;
             }
-            System.out.println(i);
+            System.out.println(num);
+            
+
+        }while(true);
+
+        // for(int i=0;i<num;i++){
+        //     if(num%10==0){
+        //         break;
+        //     }
+        //     System.out.println(i);
 
 
         }
     }
     
-}
+
