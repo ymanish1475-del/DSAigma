@@ -8,15 +8,18 @@ public class prime {
 
         System.out.print("enter num=");
         int num=sc.nextInt();
+
+        boolean isPrime=true;
         for(int i= 2 ; i<num;i++){
             if(num%i==0){
-                System.out.println("num is not prime ");
-            }else{
-                System.out.println("num is prime");
-            }
-            // int a = num%i;
-            // if(a)
+                isPrime=false;
+                
+                 
+            
         }
+        // System.out.println("not prime");
+        
+    }
         // int i=2;
         // while(num%i==0){
         //     if(i>=num){
