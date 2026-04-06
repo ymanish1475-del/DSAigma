@@ -15,7 +15,12 @@ public class primenum {
                 prime=false;
             }
         }
-        System.out.println(prime+" num is prime");
+        // System.out.println(prime+" num is prime");
+        if(prime==true){
+            System.out.println(num+" is prime");
+        }else{
+            System.out.println(num+" is not prime");
+        }
 
     }
     
