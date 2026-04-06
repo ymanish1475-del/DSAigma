@@ -10,7 +10,10 @@ public class primenum {
 
         boolean prime=true;
 
-        for(int i=2;i<num-1;i++){
+        if(num==2){
+            System.out.println("num is prime");
+        }else{
+            for(int i=2;i<num-1;i++){
             if(num%i==0){
                 prime=false;
             }
@@ -21,6 +24,10 @@ public class primenum {
         }else{
             System.out.println(num+" is not prime");
         }
+
+        }
+
+        
 
     }
     
