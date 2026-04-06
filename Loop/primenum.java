@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.*;
 
 public class primenum {
     public static void main(String [] args){
@@ -13,8 +14,7 @@ public class primenum {
         if(num==2){
             System.out.println("num is prime");
         }else{
-            for(int i=2;i<num-1;i++){
-            if(num%i==0){
+            for(int i=2;i<=Math.sqrt(num);i++){ //num-1  under root (n)
                 prime=false;
             }
         }
@@ -30,5 +30,6 @@ public class primenum {
         
 
     }
+
     
-}
+
