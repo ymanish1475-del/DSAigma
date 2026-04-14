@@ -6,7 +6,7 @@ public class triangle {
 
     public static void main(String[] args) {
         int m=4 ;
-        // int n=4;
+        // int n=4;3
         Scanner sc = new Scanner(System.in);
         System.out.print("enter n=");
         int n=sc.nextInt();
