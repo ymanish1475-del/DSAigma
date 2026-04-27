@@ -20,16 +20,17 @@ public class helloWorld {
     }
 
     public static void main(String[] args) {
-        hello();
+        // hello();
         
 
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b= sc.nextInt();
-        int sum =calsum(a,b);   //argument 
-        System.out.println("sum is : "+sum);
+        // Scanner sc = new Scanner(System.in);
+        // int a = sc.nextInt();
+        // int b= sc.nextInt();
+        // int sum =calsum(a,b);   //argument 
+        // System.out.println("sum is : "+sum);
         // int sum = a+b;
         // System.out.println(sum);
+        // int a
         
     }
     
