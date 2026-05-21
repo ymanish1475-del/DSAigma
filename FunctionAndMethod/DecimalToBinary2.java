@@ -21,8 +21,13 @@ public class DecimalToBinary2 {
 
         Scanner sc= new Scanner(System.in);
 
+
         int dec=sc.nextInt();
-        btd(dec);
+
+        int a=40;
+        System.out.println(a);
+
+        // btd(dec);
         
     }
     
