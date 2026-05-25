@@ -4,7 +4,7 @@ public class floadTriangle {
 
     public static void pyramid( int n) {
         int m=1;
-        while(m<n){
+        
             for(int i=1;i<=n;i++){
 
                 for(int j=1;j<=i;j++){
@@ -14,7 +14,7 @@ public class floadTriangle {
                 System.out.println();
                 
             }
-        }
+        
 
     }
     public static void main(String[] args) {
