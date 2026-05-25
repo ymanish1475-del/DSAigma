@@ -1,5 +1,7 @@
 // package Pattern-Advanced;
 
+import java.util.Scanner;
+
 public class InvHalfPyraNum {
 
     public static void pyramid(int n){
@@ -17,8 +19,8 @@ public class InvHalfPyraNum {
 
     }
     public static void main(String[] args) {
-        
-        int n=5;
+        Scanner sc= new Scanner(System.in);
+        int n=sc.nextInt();
         pyramid(n);
     }
 }
