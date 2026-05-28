@@ -6,6 +6,8 @@ public class butterFly {
                 System.out.print("*");
                 
             }
+            for(int j)
+
             System.out.println();
         }
     }
