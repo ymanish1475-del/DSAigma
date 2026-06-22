@@ -9,23 +9,25 @@ public class TrapRainWater {
         int level=0;
 
         for(int i=0;i<len;i++){
+
+            leftBoundry=0
             
             for(int j=i+1;j<len;j++){
+
 
                 if(num[i]<num[j] ){
                     rightBoundry=num[i];
                     leftBoundry=num[j];
-                    level=num[i];
-
+                    level=
                     totalWater=totalWater+(level-num[j]);
 
+                   
 
-                }else  {
-                    level=num[j];
-
-                    totalWater=totalWater+(level-num[i]);
 
                 }
+                 
+                
+                
             }
         }
         System.out.println(totalWater);
