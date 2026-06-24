@@ -1,42 +1,53 @@
 public class TrapRainWater {
 
-    public static void trapRain(int num[] ) {
+    public static int  trapRain(int num[] ) {
 
         int len=num.length;
-        int totalWater=0;
-        int rightBoundry=0;
-        int leftBoundry=0;
-        int level=0;
+        // left max
 
-        for(int i=0;i<len;i++){
+        int leftMax[]= new int[num.length];
 
-            leftBoundry=0
-            
-            for(int j=i+1;j<len;j++){
+        leftMax[0]=num[0];
 
-
-                if(num[i]<num[j] ){
-                    rightBoundry=num[i];
-                    leftBoundry=num[j];
-                    level=
-                    totalWater=totalWater+(level-num[j]);
-
-                   
-
-
-                }
-                 
-                
-                
-            }
+        for(int i=1;i<num.length;i++){
+            leftMax[i]=Math.max(num[i], leftMax[i-1]);
         }
-        System.out.println(totalWater);
-        
+
+        // right max
+
+        int rightMax[]=new int[num.length];
+
+
+        rightMax[num.length-1]=num[num.length-1];
+
+        for(int i=len-2;i>=0;i--){
+            rightMax[i]=Math.max(num[i], rightMax[i+1]);
+        }
+
+
+
+
+        // water level 
+        int trapWater =0;
+
+
+    for(int i=0;i<len;i++){
+
+        int waterlevel=Math.min(leftMax[i],rightMax[i]);
+
+        trapWater+=waterlevel-num[i];
+
+
+    }
+
+    return trapWater;
+    
     }
 
     public static void main(String[] args) {
         int num[]={4,2,0,6,3,2,5};
-        trapRain(num);
+       
+        System.out.println( trapRain(num));
     }
     
 }
