@@ -45,7 +45,7 @@ public class TrapRainWater {
     }
 
     public static void main(String[] args) {
-        int num[]={4,2,0,6,3,2,5};
+        int num[]={4,2,0,6,3,2,1};
        
         System.out.println( trapRain(num));
     }
