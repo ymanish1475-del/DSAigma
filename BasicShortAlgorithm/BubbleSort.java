@@ -7,7 +7,7 @@ public class BubbleSort {
 
         
 
-        for(int i=1;i<len;i++){
+        for(int i=1;i<len-k;i++){
             if(num[i-1]>num[i]){
                  int temp = num[i-1];
                  num[i-1]=num[i];
