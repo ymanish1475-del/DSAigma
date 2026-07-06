@@ -1,0 +1,37 @@
+public class SelectionSort {
+
+    public static int [] SelectionSort(int arr[] ) {
+
+        int len= arr.length;
+        
+
+        for(int i=0;i<len;i++){
+            int chotu=Integer.MAX_VALUE;
+
+            
+
+            for(int j=i+1;j<len;j++){
+                if(chotu>arr[j]){
+                    chotu=arr[j];
+                    
+                }
+            }
+            arr[i]=chotu;
+            
+        }
+
+        return arr;
+
+
+        
+    }
+    public static void main(String[] args) {
+        int arr[]={4,8,7,9,3,5,2,6,1};
+
+        int sort[]=SelectionSort(arr);
+
+        for(int i=0;i<sort.length;i++){
+            System.out.print(" "+sort[i]);
+        }
+    }
+}
