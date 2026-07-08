@@ -6,17 +6,19 @@ public class SelectionSort {
         
 
         for(int i=0;i<len;i++){
-            int chotu=Integer.MAX_VALUE;
+            int chotu=i;
 
             
 
             for(int j=i+1;j<len;j++){
-                if(chotu>arr[j]){
-                    chotu=arr[j];
+                if(arr[chotu]>arr[j]){
+                    chotu=j;
                     
                 }
             }
-            arr[i]=chotu;
+            int temp =arr[chotu];
+            arr[chotu]=arr[i];
+            arr[i]=temp;
             
         }
 
