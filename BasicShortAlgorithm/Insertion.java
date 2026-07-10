@@ -6,11 +6,22 @@ public class Insertion {
 
         for(int i=1;i<len;i++){
 
-            if(num[i-1]>num[i]){
-                int temp =num[i];
-                num[i-1]=num[i];
-                num[i]=temp;
-            }
+           int curr=num[i];
+           int prev=i-1;
+
+           while(prev>=0 && num[prev]>curr){
+
+            num[prev+1]=num[prev];
+            prev--;
+           }
+           num[prev+1]=curr;
+        //    if(num[prev]>num[curr]){
+
+        //     int temp=num[curr];
+        //     num[curr]=num[prev];
+        //     num[prev]=temp;
+
+        //    }
         }
         return num;
 
