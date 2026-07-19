@@ -31,11 +31,12 @@ public class Insertion {
     public static void main(String[] args) {
 
         int num[]={3,1,5,2,4};
-       int num2[]= Insertion(num);
+    //    int num2[]= Insertion(num);
 
-       for(int i=0;i<num2.length;i++){
-        System.out.print(num2[i]+",");
-       }
+    //    for(int i=0;i<num2.length;i++){
+    //     System.out.print(num2[i]+",");
+    //    }
+    System.out.println(num.length);
         
     }
 }
