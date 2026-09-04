@@ -4,21 +4,44 @@ import java.util.Scanner;
 
 public class palindrome {
 
+    public static boolean palin(String name) {
+
+        int len =name.length();
+
+        int j=(name.length()-1);
+        // System.out.println(len);
+        // System.out.println(j);
+        int k=0;
+
+        for(int i=0;i<(name.length())/2;i++){
+
+            // System.out.println(name.charAt(i));
+            // System.out.println(name.charAt(j));
+           
+            if(name.charAt(i)==name.charAt(j)){
+                 j--;
+                
+
+            }else {
+                return false;
+            }
+        }
+
+        return true;
+        
+    }
+
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         System.out.print("enter name for checking palindrome:- ");
         String name=sc.next();
-        int j=name.length()-1;
+        palin(name);
+        System.out.println(palin(name));
 
-        for(int i=0;i<name.length();i++){
-            if(name.charAt(i)==name.charAt(j)){
-                j--;
-            }else{
-                System.out.println("numer is not palindrome");
-                break;
-            }
-        }
-        System.out.println("num is palndrome");
+
+        // int j=name.length()-1;
+
+       
         // String palin=new String();
 
         // for(int i=name.length()-1;i>=0;i--){
