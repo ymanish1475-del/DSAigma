@@ -2,25 +2,23 @@
 
 public class fibonacci {
 
-    public static int  fibo(int s,int k ) {
+    // public static int  fibo(int s,int k ) {
 
-        return s+k;
+    //     return s+k;
         
-    }
-
+    // }
+//calculate the nth num of fibonacci..
     public static int fibonacci(int n) {
 
 
-        if(n==0){
-            return 0;
+        if(n==0||n==1){
+            return n;
         }
-        n--;
 
-        int s=0;
-        int k=1;
+        return fibonacci(n-1)+fibonacci(n-2);
+        
 
-        return fibo(s, fibo(s, k));
-      
+        
         
     }
 
