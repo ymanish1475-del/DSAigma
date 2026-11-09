@@ -2,24 +2,25 @@ public class xPowerN_Optimized {
 
     public static int  power(int x,int n) {
 
-        if(n%2==0){
+       if(n==0){
+        return 1;
 
-            if(n==0){
-                return 1;
-            }
+       }
 
-            return power(x, n/2) * power(x, n/2);
-        }else{
-            if(n==1){
-                return x;
-            }
-            return power(x, n/2) * power(x, n/2);
-        }
+       int halfPower=power(x,n/2);
+       int power=halfPower*halfPower;
+
+       if(n%2!=0){
+        return x*halfPower;
+       }
+
+       return power;
+       
         
     }
 
     public static void main(String [] args){
-        int x=5;
+        int x=4;
         int n=4;
 
        int ans = power(x, n);

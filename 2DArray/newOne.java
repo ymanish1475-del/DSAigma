@@ -24,6 +24,7 @@ public class newOne {
                 System.out.print(matrix[i][j]+" ");
             }
         }
+        sc.close();
     }
     
 }

@@ -35,6 +35,8 @@ public class factorial {
         // }
         // System.out.println("fact= "+fact);
         System.out.println(fact(a,fact));
+
+        sc.close();
         
 
 

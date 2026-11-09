@@ -50,7 +50,7 @@ public class TypeCast {
         // System.out.println((c)(int));
         // wrong
 
-        char d= f-e; 
+        // char d= f-e; 
         // int se char mai convert nahi kar sakte
 
     }

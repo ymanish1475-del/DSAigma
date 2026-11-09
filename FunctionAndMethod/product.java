@@ -1,6 +1,6 @@
 public class product {
 
-    static int product(int a,int b){
+    static int Product(int a,int b){
         int mul=a*b;
         // System.out.println("product= "+mul);
         return mul;
@@ -11,7 +11,7 @@ public class product {
         int a= 67;
         int b=78;
         // System.out.println(product(a, b));
-        int produc=product(a, b);
+        int produc=Product(a, b);
         System.out.println("product= "+produc);
         
 

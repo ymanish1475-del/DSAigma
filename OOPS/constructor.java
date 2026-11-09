@@ -14,9 +14,9 @@ public class constructor {
         s1.rollNo=78;
         s1.password="abc";
 
-        Student s2=new Student(s1);
+        // Student s2=new Student(s1);
 
-        System.out.println(s2.name);
+        // System.out.println(s2.name);/
 
 
 

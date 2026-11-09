@@ -1,4 +1,4 @@
-System.out.print("a=");
+// System.out.print("a=");
         // int a = s.nextInt();
         // System.out.print("b=");
         // int b = s.nextInt();
